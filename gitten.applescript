@@ -16,7 +16,7 @@ end run
 on idle theObject
 	set_path()
 	set_status()
-	return 2
+	return 0
 end idle
 
 on clicked theObject
@@ -26,7 +26,7 @@ on clicked theObject
 		do shell script "bin/bash/ cd " & thePath & " ;/usr/local/git/bin//git pull origin master"
 		set theStatus to the result
 		set the string value of text field "ResultsBox" of window "main" to theStatus
-		
+		delay 10
 	else if object_name is "AddCommit" then
 		set messageDialog to (display dialog "Please enter your commit message:" buttons {"Cancel", "Commit"} default answer "" default button 2 with answer)
 		set theMessage to text returned of messageDialog
@@ -38,13 +38,14 @@ on clicked theObject
 			set theStatus to errStr
 			
 			set the string value of text field "ResultsBox" of window "main" to theStatus
+			delay 10
 		end try
 		
 	else if object_name is "push" then
 		do shell script "cd " & thePath & " ; /usr/local/git/bin//git push origin master"
 		set theStatus to the result
 		set the string value of text field "ResultsBox" of window "main" to theStatus
-		
+		delay 10
 	end if
 end clicked
 
