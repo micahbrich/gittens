@@ -6,6 +6,7 @@
 
 property thePath : ""
 property theStatus : ""
+global theWindow
 
 on run theObject
 	set_path()
@@ -15,28 +16,34 @@ end run
 on idle theObject
 	set_path()
 	set_status()
+	return 1
 end idle
 
 on clicked theObject
+	set_path()
 	set object_name to name of theObject
 	if object_name is "pull" then
-		do shell script "cd " & thePath & " && /usr/local/git/bin/git pull"
+		do shell script "bin/bash/ cd " & thePath & " ;/usr/local/git/bin//git pull origin master"
 		set theStatus to the result
-		set contents of text field "ResultsBox" of window 1 to theStatus as string
+		set the string value of text field "ResultsBox" of window "main" to theStatus
 		
 	else if object_name is "AddCommit" then
-		set theMessage to (display dialog "Please enter your commit message:" buttons {"Cancel", "Commit"} default answer "" default button 2 with answer)
+		set messageDialog to (display dialog "Please enter your commit message:" buttons {"Cancel", "Commit"} default answer "" default button 2 with answer)
+		set theMessage to text returned of messageDialog
 		try
-			do shell script "cd " & thePath & " && /usr/local/git/bin/git add && /usr/local/git/bin/git commit -a -m'" & theMessage & "'"
+			do shell script "cd " & thePath & " ;/usr/local/git/bin//git add ."
+			do shell script "cd " & thePath & " ;/usr/local/git/bin//git commit -a -m\"" & theMessage & "\""
+			
 		on error errStr
-			set theStatus to errStr as string
-			set contents of text field "ResultsBox" of window 1 to theStatus as string
+			set theStatus to errStr
+			
+			set the string value of text field "ResultsBox" of window "main" to theStatus
 		end try
 		
 	else if object_name is "push" then
-		do shell script "cd " & thePath & " && /usr/local/git/bin/git push"
+		do shell script "cd " & thePath & " ; /usr/local/git/bin//git push origin master"
 		set theStatus to the result
-		set contents of text field "ResultsBox" of window 1 to theStatus as string
+		set the string value of text field "ResultsBox" of window "main" to theStatus
 		
 	end if
 end clicked
@@ -51,6 +58,7 @@ on became main theObject
 	set_status()
 end became main
 
+
 on set_path()
 	tell application "Finder"
 		set theWindow to window 1
@@ -59,22 +67,23 @@ on set_path()
 end set_path
 
 on set_status()
+	set_path()
 	set theGitPath to (thePath & ".git" & "/config")
 	if exists POSIX file (theGitPath) as string then
 		try
-			do shell script "cd " & thePath & " && /usr/local/git/bin/git status"
+			set theStatus to do shell script "cd " & thePath & " ;/usr/local/git/bin//git status"
 		on error errStr
 			set theStatus to errStr
 			if theStatus contains ("fatal:" as string) then
-				set contents of text field "ResultsBox" of window 1 to (thePath & " isn't a git repo!")
+				set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
 			else
-				set contents of text field "ResultsBox" of window 1 to (thePath & "
-" & "
-" & theStatus as string)
+				set the string value of text field "ResultsBox" of window "main" to theStatus
+				
 			end if
 		end try
 		
 	else
-		set contents of text field "ResultsBox" of window 1 to (theGitPath & " isn't a git repo!")
+		set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
+		
 	end if
 end set_status

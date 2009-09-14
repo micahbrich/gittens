@@ -8,8 +8,8 @@
 		<string key="IBDocument.HIToolboxVersion">353.00</string>
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
-			<integer value="431"/>
 			<integer value="280"/>
+			<integer value="431"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -295,50 +295,6 @@
 								</object>
 							</object>
 						</object>
-						<object class="NSBox" id="423950164">
-							<reference key="NSNextResponder" ref="500716153"/>
-							<int key="NSvFlags">18</int>
-							<object class="NSMutableArray" key="NSSubviews">
-								<bool key="EncodedWithXMLCoder">YES</bool>
-								<object class="NSView" id="27849816">
-									<reference key="NSNextResponder" ref="423950164"/>
-									<int key="NSvFlags">256</int>
-									<string key="NSFrame">{{3, 3}, {258, 159}}</string>
-									<reference key="NSSuperview" ref="423950164"/>
-								</object>
-							</object>
-							<string key="NSFrame">{{11, 47}, {264, 165}}</string>
-							<reference key="NSSuperview" ref="500716153"/>
-							<string key="NSOffsets">{0, 0}</string>
-							<object class="NSTextFieldCell" key="NSTitleCell">
-								<int key="NSCellFlags">67239424</int>
-								<int key="NSCellFlags2">0</int>
-								<string key="NSContents"/>
-								<object class="NSFont" key="NSSupport">
-									<string key="NSName">LucidaGrande</string>
-									<double key="NSSize">1.100000e+01</double>
-									<int key="NSfFlags">3100</int>
-								</object>
-								<object class="NSColor" key="NSBackgroundColor">
-									<int key="NSColorSpace">6</int>
-									<string key="NSCatalogName">System</string>
-									<string key="NSColorName">textBackgroundColor</string>
-									<object class="NSColor" key="NSColor">
-										<int key="NSColorSpace">3</int>
-										<bytes key="NSWhite">MQA</bytes>
-									</object>
-								</object>
-								<object class="NSColor" key="NSTextColor">
-									<int key="NSColorSpace">3</int>
-									<bytes key="NSWhite">MCAwLjgwMDAwMDAxAA</bytes>
-								</object>
-							</object>
-							<reference key="NSContentView" ref="27849816"/>
-							<int key="NSBorderType">2</int>
-							<int key="NSBoxType">0</int>
-							<int key="NSTitlePosition">0</int>
-							<bool key="NSTransparent">NO</bool>
-						</object>
 					</object>
 					<string key="NSFrameSize">{286, 224}</string>
 					<reference key="NSSuperview"/>
@@ -572,57 +528,11 @@
 						<object class="NSMutableArray" key="children">
 							<bool key="EncodedWithXMLCoder">YES</bool>
 							<reference ref="312477023"/>
-							<reference ref="245336852"/>
 							<reference ref="858808115"/>
+							<reference ref="245336852"/>
 							<reference ref="809222399"/>
-							<reference ref="423950164"/>
 						</object>
 						<reference key="parent" ref="529612772"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">442</int>
-						<reference key="object" ref="809222399"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="1070532092"/>
-						</object>
-						<reference key="parent" ref="500716153"/>
-						<string key="objectName">pull</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">443</int>
-						<reference key="object" ref="1070532092"/>
-						<reference key="parent" ref="809222399"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">444</int>
-						<reference key="object" ref="245336852"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="245724633"/>
-						</object>
-						<reference key="parent" ref="500716153"/>
-						<string key="objectName">commit</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">445</int>
-						<reference key="object" ref="245724633"/>
-						<reference key="parent" ref="245336852"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">446</int>
-						<reference key="object" ref="858808115"/>
-						<object class="NSMutableArray" key="children">
-							<bool key="EncodedWithXMLCoder">YES</bool>
-							<reference ref="846341279"/>
-						</object>
-						<reference key="parent" ref="500716153"/>
-						<string key="objectName">push</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">447</int>
-						<reference key="object" ref="846341279"/>
-						<reference key="parent" ref="858808115"/>
 					</object>
 					<object class="IBObjectRecord">
 						<int key="objectID">460</int>
@@ -640,9 +550,49 @@
 						<reference key="parent" ref="312477023"/>
 					</object>
 					<object class="IBObjectRecord">
-						<int key="objectID">466</int>
-						<reference key="object" ref="423950164"/>
+						<int key="objectID">446</int>
+						<reference key="object" ref="858808115"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="846341279"/>
+						</object>
 						<reference key="parent" ref="500716153"/>
+						<string key="objectName">push</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">447</int>
+						<reference key="object" ref="846341279"/>
+						<reference key="parent" ref="858808115"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">444</int>
+						<reference key="object" ref="245336852"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="245724633"/>
+						</object>
+						<reference key="parent" ref="500716153"/>
+						<string key="objectName">commit</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">445</int>
+						<reference key="object" ref="245724633"/>
+						<reference key="parent" ref="245336852"/>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">442</int>
+						<reference key="object" ref="809222399"/>
+						<object class="NSMutableArray" key="children">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+							<reference ref="1070532092"/>
+						</object>
+						<reference key="parent" ref="500716153"/>
+						<string key="objectName">pull</string>
+					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">443</int>
+						<reference key="object" ref="1070532092"/>
+						<reference key="parent" ref="809222399"/>
 					</object>
 				</object>
 			</object>
@@ -714,8 +664,6 @@
 					<string>460.IBAttributePlaceholdersKey</string>
 					<string>460.IBPluginDependency</string>
 					<string>461.IBPluginDependency</string>
-					<string>466.IBAttributePlaceholdersKey</string>
-					<string>466.IBPluginDependency</string>
 				</object>
 				<object class="NSMutableArray" key="dict.values">
 					<bool key="EncodedWithXMLCoder">YES</bool>
@@ -747,7 +695,7 @@
 								<bool key="EncodedWithXMLCoder">YES</bool>
 							</object>
 							<string key="appleScriptScriptName">gitten.applescript</string>
-							<string key="appleScriptObjectName">gittensApp</string>
+							<string key="appleScriptObjectName"/>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -803,24 +751,21 @@
 								<string>DidBecomeMain</string>
 							</object>
 							<string key="appleScriptScriptName">gitten.applescript</string>
-							<string key="appleScriptObjectName">gittens</string>
+							<string key="appleScriptObjectName">main</string>
 						</object>
 					</object>
-					<string>{{672, 738}, {286, 224}}</string>
-					<string>{{672, 738}, {286, 224}}</string>
+					<string>{{768, 694}, {286, 224}}</string>
+					<string>{{768, 694}, {286, 224}}</string>
 					<boolean value="YES" id="5"/>
 					<reference ref="5"/>
 					<string>{286, 200}</string>
 					<object class="NSMutableDictionary">
-						<string key="NS.key.0">IBAppleScriptAttributeName</string>
-						<object class="IBAppleScriptInfoAttribute" key="NS.object.0">
-							<string key="name">IBAppleScriptAttributeName</string>
-							<reference key="object" ref="500716153"/>
-							<int key="appleScriptObjectID">0</int>
-							<int key="appleScriptScriptScope">0</int>
-							<nil key="appleScriptEventHandlerNames"/>
-							<string key="appleScriptScriptName">gitten.applescript</string>
-							<nil key="appleScriptObjectName"/>
+						<bool key="EncodedWithXMLCoder">YES</bool>
+						<object class="NSArray" key="dict.sortedKeys">
+							<bool key="EncodedWithXMLCoder">YES</bool>
+						</object>
+						<object class="NSMutableArray" key="dict.values">
+							<bool key="EncodedWithXMLCoder">YES</bool>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -882,27 +827,14 @@
 							<reference key="object" ref="312477023"/>
 							<int key="appleScriptObjectID">0</int>
 							<int key="appleScriptScriptScope">0</int>
-							<nil key="appleScriptEventHandlerNames"/>
+							<object class="NSArray" key="appleScriptEventHandlerNames">
+								<bool key="EncodedWithXMLCoder">YES</bool>
+							</object>
 							<string key="appleScriptScriptName">gitten.applescript</string>
 							<string key="appleScriptObjectName">ResultsBox</string>
 						</object>
 					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
-					<object class="NSMutableDictionary">
-						<string key="NS.key.0">IBAppleScriptAttributeName</string>
-						<object class="IBAppleScriptInfoAttribute" key="NS.object.0">
-							<string key="name">IBAppleScriptAttributeName</string>
-							<reference key="object" ref="423950164"/>
-							<int key="appleScriptObjectID">0</int>
-							<int key="appleScriptScriptScope">0</int>
-							<object class="NSArray" key="appleScriptEventHandlerNames">
-								<bool key="EncodedWithXMLCoder">YES</bool>
-							</object>
-							<string key="appleScriptScriptName"/>
-							<string key="appleScriptObjectName">Status</string>
-						</object>
-					</object>
 					<string>com.apple.InterfaceBuilder.CocoaPlugin</string>
 				</object>
 			</object>
