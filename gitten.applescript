@@ -32,12 +32,10 @@ on clicked theObject
 		try
 			do shell script "cd " & thePath & " ;/usr/local/git/bin//git add ."
 			do shell script "cd " & thePath & " ;/usr/local/git/bin//git commit -a -m\"" & theMessage & "\""
-			set theExtraStatus to "Successfully committed."
-			
 		on error errStr
 			set theStatus to errStr
 			
-			set the string value of text field "ResultsBox" of window "main" to (theExtraStatus & "
+			set the string value of text field "ResultsBox" of window "main" to ("Successfully commited." & "
 " & theStatus)
 		end try
 		
