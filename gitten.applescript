@@ -32,7 +32,7 @@ on clicked theObject
 		try
 			do shell script "cd " & thePath & " ;/usr/local/git/bin//git add ."
 			do shell script "cd " & thePath & " ;/usr/local/git/bin//git commit -a -m\"" & theMessage & "\""
-			set the result to theExtraStatus
+			set theExtraStatus to the result
 			
 		on error errStr
 			set theStatus to errStr
