@@ -32,12 +32,13 @@ on clicked theObject
 		try
 			do shell script "cd " & thePath & " ;/usr/local/git/bin//git add ."
 			do shell script "cd " & thePath & " ;/usr/local/git/bin//git commit -a -m\"" & theMessage & "\""
-			display dialog "Committed!"
+			set the result to theExtraStatus
 			
 		on error errStr
 			set theStatus to errStr
 			
-			set the string value of text field "ResultsBox" of window "main" to theStatus
+			set the string value of text field "ResultsBox" of window "main" to (theExtraStatus & "
+" & theStatus)
 		end try
 		
 	else if object_name is "push" then
