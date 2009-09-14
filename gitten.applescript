@@ -11,7 +11,7 @@ global theWindow
 
 on run theObject
 	set_path()
-	set_status("")
+	set_status("gittens!")
 end run
 
 on idle theObject
@@ -25,24 +25,20 @@ on clicked theObject
 	set object_name to name of theObject
 	if object_name is "pull" then
 		do shell script "bin/bash/ cd " & thePath & " ;/usr/local/git/bin//git pull origin master"
-		set theStatus to the result
-		set the string value of text field "ResultsBox" of window "main" to theStatus
+		set extraMessage to the result
 	else if object_name is "AddCommit" then
 		set messageDialog to (display dialog "Please enter your commit message:" buttons {"Cancel", "Commit"} default answer "" default button 2 with answer)
 		set theMessage to text returned of messageDialog
-		try
-			do shell script "cd " & thePath & " ;/usr/local/git/bin//git add ."
-			do shell script "cd " & thePath & " ;/usr/local/git/bin//git commit -a -m\"" & theMessage & "\""
-		on error errStr
-			set extraMessage to theMessage
-			set_status(extraMessage)
-		end try
+		do shell script "cd " & thePath & " ;/usr/local/git/bin//git add ."
+		do shell script "cd " & thePath & " ;/usr/local/git/bin//git commit -a -m\"" & theMessage & "\""
+		set extraMessage to the result
 		
 	else if object_name is "push" then
 		do shell script "cd " & thePath & " ; /usr/local/git/bin//git push origin master"
-		set theStatus to the result
-		set the string value of text field "ResultsBox" of window "main" to theStatus
+		set extraMessage to the result
 	end if
+	set_status(extraMessage)
+	
 end clicked
 
 on became key theObject
@@ -64,25 +60,27 @@ on set_path()
 end set_path
 
 on set_status(extraMessage)
-	
 	set_path()
 	set theGitPath to (thePath & ".git" & "/config")
 	if exists POSIX file (theGitPath) as string then
 		try
-			set theStatus to do shell script "cd " & thePath & " ;/usr/local/git/bin//git status"
+			set gitStatus to do shell script "cd " & thePath & " ;/usr/local/git/bin//git status"
 		on error errStr
-			set theStatus to errStr
-			if theStatus contains ("fatal:" as string) then
-				set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
+			set gitStatus to errStr
+			if gitStatus contains ("fatal:" as string) then
+				set theStatus to (theGitPath & " isn't a git repo!")
 			else
-				set the string value of text field "ResultsBox" of window "main" to (extraMessage & "
-" & theStatus)
+				set theStatus to ((extraMessage as string) & "
+" & gitStatus)
 				
 			end if
 		end try
 		
 	else
-		set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
+		set theStatus to (theGitPath & " isn't a git repo!")
 		
 	end if
+	
+	set the string value of text field "ResultsBox" of window "main" to (theStatus)
+	
 end set_status
