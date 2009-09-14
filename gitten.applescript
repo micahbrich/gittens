@@ -6,16 +6,17 @@
 
 property thePath : ""
 property theStatus : ""
+property extraMessage : ""
 global theWindow
 
 on run theObject
 	set_path()
-	set_status()
+	set_status("")
 end run
 
 on idle theObject
 	set_path()
-	set_status()
+	set_status("")
 	return 0
 end idle
 
@@ -33,10 +34,8 @@ on clicked theObject
 			do shell script "cd " & thePath & " ;/usr/local/git/bin//git add ."
 			do shell script "cd " & thePath & " ;/usr/local/git/bin//git commit -a -m\"" & theMessage & "\""
 		on error errStr
-			set theStatus to errStr
-			
-			set the string value of text field "ResultsBox" of window "main" to ("Successfully commited." & "
-" & theStatus)
+			set extraMessage to theMessage
+			set_status(extraMessage)
 		end try
 		
 	else if object_name is "push" then
@@ -48,12 +47,12 @@ end clicked
 
 on became key theObject
 	set_path()
-	set_status()
+	set_status("")
 end became key
 
 on became main theObject
 	set_path()
-	set_status()
+	set_status("")
 end became main
 
 
@@ -64,7 +63,8 @@ on set_path()
 	end tell
 end set_path
 
-on set_status()
+on set_status(extraMessage)
+	
 	set_path()
 	set theGitPath to (thePath & ".git" & "/config")
 	if exists POSIX file (theGitPath) as string then
@@ -75,7 +75,8 @@ on set_status()
 			if theStatus contains ("fatal:" as string) then
 				set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
 			else
-				set the string value of text field "ResultsBox" of window "main" to theStatus
+				set the string value of text field "ResultsBox" of window "main" to (extraMessage & "
+" & theStatus)
 				
 			end if
 		end try

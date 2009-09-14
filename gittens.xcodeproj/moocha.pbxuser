@@ -218,6 +218,32 @@
 			84396267105EAA1F0011E95D /* PBXTextBookmark */ = 84396267105EAA1F0011E95D /* PBXTextBookmark */;
 			84396269105EAA930011E95D /* PBXTextBookmark */ = 84396269105EAA930011E95D /* PBXTextBookmark */;
 			8439626A105EAA930011E95D /* PBXTextBookmark */ = 8439626A105EAA930011E95D /* PBXTextBookmark */;
+			8439626C105EAB120011E95D /* PBXTextBookmark */ = 8439626C105EAB120011E95D /* PBXTextBookmark */;
+			8439626D105EAB120011E95D /* PBXTextBookmark */ = 8439626D105EAB120011E95D /* PBXTextBookmark */;
+			8439626F105EAB3D0011E95D /* PBXTextBookmark */ = 8439626F105EAB3D0011E95D /* PBXTextBookmark */;
+			84396270105EAB3D0011E95D /* PBXTextBookmark */ = 84396270105EAB3D0011E95D /* PBXTextBookmark */;
+			84396272105EAB580011E95D /* PBXTextBookmark */ = 84396272105EAB580011E95D /* PBXTextBookmark */;
+			84396273105EAB580011E95D /* PBXTextBookmark */ = 84396273105EAB580011E95D /* PBXTextBookmark */;
+			84396275105EABBE0011E95D /* PBXTextBookmark */ = 84396275105EABBE0011E95D /* PBXTextBookmark */;
+			84396276105EABBE0011E95D /* PBXTextBookmark */ = 84396276105EABBE0011E95D /* PBXTextBookmark */;
+			84396278105EABC50011E95D /* PBXTextBookmark */ = 84396278105EABC50011E95D /* PBXTextBookmark */;
+			84396279105EABC50011E95D /* PBXTextBookmark */ = 84396279105EABC50011E95D /* PBXTextBookmark */;
+			8439627A105EABE00011E95D /* PBXTextBookmark */ = 8439627A105EABE00011E95D /* PBXTextBookmark */;
+			8439627B105EABE00011E95D /* PBXTextBookmark */ = 8439627B105EABE00011E95D /* PBXTextBookmark */;
+			8439627D105EAC7C0011E95D /* PBXTextBookmark */ = 8439627D105EAC7C0011E95D /* PBXTextBookmark */;
+			8439627E105EAC7C0011E95D /* PBXTextBookmark */ = 8439627E105EAC7C0011E95D /* PBXTextBookmark */;
+			84396280105EAC840011E95D /* PBXTextBookmark */ = 84396280105EAC840011E95D /* PBXTextBookmark */;
+			84396281105EAC840011E95D /* PBXTextBookmark */ = 84396281105EAC840011E95D /* PBXTextBookmark */;
+			84396282105EAC9D0011E95D /* PBXTextBookmark */ = 84396282105EAC9D0011E95D /* PBXTextBookmark */;
+			84396283105EAC9D0011E95D /* PBXTextBookmark */ = 84396283105EAC9D0011E95D /* PBXTextBookmark */;
+			84396285105EACC00011E95D /* PBXTextBookmark */ = 84396285105EACC00011E95D /* PBXTextBookmark */;
+			84396286105EACC00011E95D /* PBXTextBookmark */ = 84396286105EACC00011E95D /* PBXTextBookmark */;
+			84396288105EACCE0011E95D /* PBXTextBookmark */ = 84396288105EACCE0011E95D /* PBXTextBookmark */;
+			84396289105EACCE0011E95D /* PBXTextBookmark */ = 84396289105EACCE0011E95D /* PBXTextBookmark */;
+			8439628A105EACE80011E95D /* PBXTextBookmark */ = 8439628A105EACE80011E95D /* PBXTextBookmark */;
+			8439628B105EACE80011E95D /* PBXTextBookmark */ = 8439628B105EACE80011E95D /* PBXTextBookmark */;
+			8439628D105EAED40011E95D /* PBXTextBookmark */ = 8439628D105EAED40011E95D /* PBXTextBookmark */;
+			8439628E105EAED40011E95D /* PBXTextBookmark */ = 8439628E105EAED40011E95D /* PBXTextBookmark */;
 			8449069B105D98C900FC6365 = 8449069B105D98C900FC6365 /* PBXTextBookmark */;
 			8449069D105D98C900FC6365 = 8449069D105D98C900FC6365 /* PBXTextBookmark */;
 			8449069E105D98C900FC6365 = 8449069E105D98C900FC6365 /* PBXBookmark */;
@@ -300,7 +326,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 341;
 		vrLoc = 1748;
@@ -310,7 +336,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 56";
 		rLen = 0;
-		rLoc = 1598;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 642;
 		vrLoc = 1275;
@@ -320,7 +346,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 85";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 1763;
@@ -330,7 +356,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 85";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 684;
 		vrLoc = 1275;
@@ -340,7 +366,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 85";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 225;
 		vrLoc = 1658;
@@ -350,7 +376,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 85";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 1041;
 		vrLoc = 283;
@@ -360,7 +386,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 85";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 267;
 		vrLoc = 1668;
@@ -370,7 +396,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 85";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 968;
 		vrLoc = 342;
@@ -380,7 +406,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 87";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 268;
 		vrLoc = 1889;
@@ -390,7 +416,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 87";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 945;
 		vrLoc = 220;
@@ -400,7 +426,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 87";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 224;
 		vrLoc = 1738;
@@ -410,7 +436,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 87";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 1095;
 		vrLoc = 385;
@@ -420,7 +446,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 87";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 270;
 		vrLoc = 1847;
@@ -430,7 +456,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 87";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 1567;
@@ -440,7 +466,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 270;
 		vrLoc = 1859;
@@ -450,7 +476,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 797;
 		vrLoc = 1567;
@@ -460,7 +486,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 268;
 		vrLoc = 1870;
@@ -470,7 +496,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 606;
 		vrLoc = 0;
@@ -480,7 +506,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 268;
 		vrLoc = 1870;
@@ -490,7 +516,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 815;
 		vrLoc = 1585;
@@ -500,7 +526,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 349;
 		vrLoc = 1870;
@@ -510,7 +536,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 647;
 		vrLoc = 0;
@@ -520,7 +546,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 270;
 		vrLoc = 1876;
@@ -530,7 +556,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 1584;
@@ -540,7 +566,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 357;
 		vrLoc = 1876;
@@ -550,7 +576,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 816;
 		vrLoc = 1553;
@@ -560,7 +586,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 356;
 		vrLoc = 1876;
@@ -570,7 +596,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 799;
 		vrLoc = 1584;
@@ -580,7 +606,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 357;
 		vrLoc = 1876;
@@ -590,7 +616,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 800;
 		vrLoc = 1584;
@@ -600,7 +626,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 272;
 		vrLoc = 1876;
@@ -610,7 +636,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 938;
 		vrLoc = 603;
@@ -620,7 +646,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 1876;
@@ -630,7 +656,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 822;
 		vrLoc = 1584;
@@ -640,7 +666,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 1876;
@@ -650,7 +676,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 721;
 		vrLoc = 1553;
@@ -660,7 +686,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 1876;
@@ -670,7 +696,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 1584;
@@ -680,7 +706,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 1876;
@@ -690,7 +716,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 813;
 		vrLoc = 1584;
@@ -700,7 +726,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 1876;
@@ -710,7 +736,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 817;
 		vrLoc = 1584;
@@ -720,7 +746,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 289;
 		vrLoc = 1856;
@@ -730,7 +756,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 608;
 		vrLoc = 0;
@@ -740,7 +766,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1856;
@@ -750,7 +776,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 832;
 		vrLoc = 1547;
@@ -760,7 +786,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1866;
@@ -770,7 +796,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 0;
@@ -780,7 +806,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1866;
@@ -790,7 +816,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 0;
@@ -800,7 +826,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 92";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 307;
 		vrLoc = 1888;
@@ -810,7 +836,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 92";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 815;
 		vrLoc = 1645;
@@ -820,7 +846,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 92";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 307;
 		vrLoc = 1895;
@@ -830,7 +856,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 92";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 850;
 		vrLoc = 1617;
@@ -840,7 +866,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1867;
@@ -850,7 +876,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 826;
 		vrLoc = 1590;
@@ -860,7 +886,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1866;
@@ -870,7 +896,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 0;
@@ -880,7 +906,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1866;
@@ -890,7 +916,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 615;
 		vrLoc = 0;
@@ -900,7 +926,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 91";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 1888;
@@ -910,7 +936,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 91";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 505;
@@ -920,7 +946,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 91";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 299;
 		vrLoc = 1888;
@@ -930,7 +956,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 91";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 1013;
 		vrLoc = 505;
@@ -940,7 +966,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1873;
@@ -950,7 +976,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 1008;
 		vrLoc = 505;
@@ -960,7 +986,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1891;
@@ -970,7 +996,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 505;
@@ -980,7 +1006,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 89";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1891;
@@ -990,7 +1016,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 35";
 		rLen = 0;
-		rLoc = 1035;
+		rLoc = 248;
 		rType = 0;
 		vrLen = 1026;
 		vrLoc = 505;
@@ -1000,7 +1026,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1921;
@@ -1010,7 +1036,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 942;
 		vrLoc = 656;
@@ -1020,7 +1046,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1921;
@@ -1030,7 +1056,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 1174;
 		vrLoc = 300;
@@ -1040,7 +1066,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1936;
@@ -1050,7 +1076,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 90";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 1189;
 		vrLoc = 300;
@@ -1060,7 +1086,7 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 301;
 		vrLoc = 1891;
@@ -1070,10 +1096,270 @@
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		name = "gitten.applescript: 88";
 		rLen = 0;
-		rLoc = 2440;
+		rLoc = 2427;
 		rType = 0;
 		vrLen = 791;
 		vrLoc = 808;
+	};
+	8439626C105EAB120011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 88";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 299;
+		vrLoc = 1952;
+	};
+	8439626D105EAB120011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 88";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 1103;
+		vrLoc = 370;
+	};
+	8439626F105EAB3D0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 89";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 1968;
+	};
+	84396270105EAB3D0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 89";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 880;
+		vrLoc = 1556;
+	};
+	84396272105EAB580011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 91";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 240;
+		vrLoc = 1811;
+	};
+	84396273105EAB580011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 91";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 883;
+		vrLoc = 1583;
+	};
+	84396275105EABBE0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 90";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 241;
+		vrLoc = 1819;
+	};
+	84396276105EABBE0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 90";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 868;
+		vrLoc = 1556;
+	};
+	84396278105EABC50011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 90";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 241;
+		vrLoc = 1807;
+	};
+	84396279105EABC50011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 90";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 856;
+		vrLoc = 1556;
+	};
+	8439627A105EABE00011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 90";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 1807;
+	};
+	8439627B105EABE00011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 90";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 1115;
+		vrLoc = 358;
+	};
+	8439627D105EAC7C0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 93";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 301;
+		vrLoc = 1930;
+	};
+	8439627E105EAC7C0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 93";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 812;
+		vrLoc = 1524;
+	};
+	84396280105EAC840011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 94";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 302;
+		vrLoc = 2019;
+	};
+	84396281105EAC840011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 94";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 797;
+		vrLoc = 1524;
+	};
+	84396282105EAC9D0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 93";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 314;
+		vrLoc = 2024;
+	};
+	84396283105EAC9D0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 38";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 1116;
+		vrLoc = 370;
+	};
+	84396285105EACC00011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 93";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 1778;
+	};
+	84396286105EACC00011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 68";
+		rLen = 0;
+		rLoc = 248;
+		rType = 0;
+		vrLen = 821;
+		vrLoc = 1675;
+	};
+	84396288105EACCE0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 93";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 161;
+		vrLoc = 1790;
+	};
+	84396289105EACCE0011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 93";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 833;
+		vrLoc = 1675;
+	};
+	8439628A105EACE80011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 89";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 397;
+		vrLoc = 1841;
+	};
+	8439628B105EACE80011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 89";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 836;
+		vrLoc = 1583;
+	};
+	8439628D105EAED40011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 89";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 277;
+		vrLoc = 1989;
+	};
+	8439628E105EAED40011E95D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
+		name = "gitten.applescript: 89";
+		rLen = 0;
+		rLoc = 2427;
+		rType = 0;
+		vrLen = 770;
+		vrLoc = 1516;
 	};
 	8449069B105D98C900FC6365 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -1160,7 +1446,7 @@
 		comments = "/Users/moocha/Pending/gittens/gitten.applescript:67: Expected class name but found identifier. (-2741)";
 		fRef = DA206CF3015C4E8B03C91932 /* gitten.applescript */;
 		rLen = 0;
-		rLoc = 57;
+		rLoc = 12;
 		rType = 1;
 	};
 	84490AAD105E325F00FC6365 /* PBXTextBookmark */ = {
@@ -1185,9 +1471,9 @@
 	};
 	DA206CF3015C4E8B03C91932 /* gitten.applescript */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {990, 1365}}";
-			sepNavSelRange = "{2440, 0}";
-			sepNavVisRange = "{808, 791}";
+			sepNavIntBoundsRect = "{{0, 0}, {990, 1332}}";
+			sepNavSelRange = "{2427, 0}";
+			sepNavVisRange = "{1516, 770}";
 			sepNavWindowFrame = "{{793, 389}, {750, 558}}";
 		};
 	};
