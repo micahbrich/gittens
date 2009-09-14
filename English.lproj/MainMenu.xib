@@ -9,7 +9,7 @@
 		<object class="NSMutableArray" key="IBDocument.EditedObjectIDs">
 			<bool key="EncodedWithXMLCoder">YES</bool>
 			<integer value="280"/>
-			<integer value="431"/>
+			<integer value="430"/>
 		</object>
 		<object class="NSArray" key="IBDocument.PluginDependencies">
 			<bool key="EncodedWithXMLCoder">YES</bool>
@@ -747,8 +747,6 @@
 							<int key="appleScriptScriptScope">0</int>
 							<object class="NSArray" key="appleScriptEventHandlerNames">
 								<bool key="EncodedWithXMLCoder">YES</bool>
-								<string>DidBecomeKey</string>
-								<string>DidBecomeMain</string>
 							</object>
 							<string key="appleScriptScriptName">gitten.applescript</string>
 							<string key="appleScriptObjectName">main</string>

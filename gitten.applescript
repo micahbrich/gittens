@@ -41,15 +41,6 @@ on clicked theObject
 	
 end clicked
 
-on became key theObject
-	set_path()
-	set_status("")
-end became key
-
-on became main theObject
-	set_path()
-	set_status("")
-end became main
 
 
 on set_path()
