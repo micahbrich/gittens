@@ -37,7 +37,7 @@ on clicked theObject
 			set theStatus to errStr
 			
 			set the string value of text field "ResultsBox" of window "main" to theStatus
-			return 10
+			display dialog "Committed!"
 		end try
 		
 	else if object_name is "push" then
