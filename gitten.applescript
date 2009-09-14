@@ -16,7 +16,7 @@ end run
 on idle theObject
 	set_path()
 	set_status()
-	return 60
+	return 2
 end idle
 
 on clicked theObject
@@ -69,23 +69,21 @@ end set_path
 on set_status()
 	set_path()
 	set theGitPath to (thePath & ".git" & "/config")
-	if theStatus exists then
-		if exists POSIX file (theGitPath) as string then
-			try
-				set theStatus to do shell script "cd " & thePath & " ;/usr/local/git/bin//git status"
-			on error errStr
-				set theStatus to errStr
-				if theStatus contains ("fatal:" as string) then
-					set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
-				else
-					set the string value of text field "ResultsBox" of window "main" to theStatus
-					
-				end if
-			end try
-			
-		else
-			set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
-			
-		end if
+	if exists POSIX file (theGitPath) as string then
+		try
+			set theStatus to do shell script "cd " & thePath & " ;/usr/local/git/bin//git status"
+		on error errStr
+			set theStatus to errStr
+			if theStatus contains ("fatal:" as string) then
+				set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
+			else
+				set the string value of text field "ResultsBox" of window "main" to theStatus
+				
+			end if
+		end try
+		
+	else
+		set the string value of text field "ResultsBox" of window "main" to (theGitPath & " isn't a git repo!")
+		
 	end if
 end set_status
