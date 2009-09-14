@@ -693,6 +693,8 @@
 							<int key="appleScriptScriptScope">0</int>
 							<object class="NSArray" key="appleScriptEventHandlerNames">
 								<bool key="EncodedWithXMLCoder">YES</bool>
+								<string>DidBecomeActive</string>
+								<string>Idle</string>
 							</object>
 							<string key="appleScriptScriptName">gitten.applescript</string>
 							<string key="appleScriptObjectName"/>

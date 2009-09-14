@@ -9,16 +9,6 @@ property theStatus : ""
 property extraMessage : ""
 global theWindow
 
-on run theObject
-	set_path()
-	set_status("gittens!")
-end run
-
-on idle theObject
-	set_path()
-	set_status("")
-	return 0
-end idle
 
 on clicked theObject
 	set_path()
@@ -40,6 +30,16 @@ on clicked theObject
 	set_status(extraMessage)
 	
 end clicked
+
+on idle theObject
+	set_path()
+	set_status(extraMessage)
+end idle
+
+on activated theObject
+	set_path()
+	set_status("Welcome!")
+end activated
 
 
 
