@@ -1,6 +1,8 @@
 -- gitten.applescript
 -- gittens
-
+--
+-- icon by Nora (nora_pixel@hotmail.com) via http://www.pixelgirlpresents.com/icons.php
+--
 --  Created by Micah Rich on 9/13/09.
 --  Copyright 2009 A Good Company™. All rights reserved.
 
