@@ -62,6 +62,7 @@ on set_status(extraMessage)
 				set theStatus to (theGitPath & " isn't a git repo!")
 			else
 				set theStatus to ((extraMessage as string) & "
+" & "
 " & gitStatus)
 				
 			end if
